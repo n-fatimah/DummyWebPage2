@@ -1,0 +1,145 @@
+body {
+    margin: 10;
+    padding: 0;
+}
+h2{
+ font-family: sans-serif;
+ text-align: center;
+}
+.red-bg {
+    text-align: center;
+    height: 50hv;
+    background-color: rgb(196, 135, 118);
+} 
+.div1{
+  height: 60vh;
+  width: 200px;
+  Border-style:solid;
+  border-color: black;
+  margin:2%;
+  display: inline-table;
+  background-color: rgb(255, 255, 255); 
+}
+
+ .div2{
+    width: 200px;     
+    height: 60vh;
+    Border-style:solid;
+    border-color: rgb(247, 245, 245);
+    margin:2% ;
+    display: inline-table;
+    background-color: rgba(175, 165, 165, 0.885); 
+    
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+
+}
+.price{
+    padding:10px;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.textt{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.in-div{
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 2px;
+    display: inline-table;
+    }
+
+.in-div button {
+    background-color: rgb(174, 160, 160); 
+    color: white; 
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+
+.diff-in-div{
+    text-align: center;
+    margin-top: 30px; 
+    }
+
+.diff-in-div button {
+    background-color: rgb(255, 254, 254); 
+    color: rgb(0, 0, 0); 
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1{
+    font-family:'Gill Sans';
+    font-size: larger;
+    color: black;
+    text-align: center;
+
+}
+.tagline{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
+
+
+.third-section{
+    font-family:'Gill Sans';
+    background-color: rgb(207, 186, 159);
+    padding:5px 0px ;
+}
+
+h3{
+    font-family:'Gill Sans';
+    text-align: center;
+}
+
+.in-ts div{
+    width:20 hv;
+    height: 100 px;
+    margin: 10px 660px 10px 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.in-ts :nth-child(2n){
+    background-color: #925A5A;
+    color: #fff;
+}
+
+/*rgb(233, 185, 213)*/
+
+.in-ts2 div{
+    width:20 hv;
+    height: 100 px;
+    margin: 10px 20px 10px 660px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.in-ts2 :nth-child(2n){
+    /*background-color:  rgb(233, 185, 213);*/
+    background-color: #925A5A;
+    color: #fff;
+}
+
+#footer{
+    height: 50hv;
+    background-color: #fff;
+    text-align:right;
+    font-weight: bold;
+}
